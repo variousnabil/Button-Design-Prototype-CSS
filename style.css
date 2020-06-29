@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #ECF0F3;
 }
 
 .btn {
@@ -63,4 +64,25 @@
     color: white;
     background: #1e81ff;
     transition: 0.8s;
+}
+
+.btn6 {
+    border-width: 0px;
+    border-radius: 8px;
+    background: #ECF0F3;
+    box-shadow: 5px 5px 10px #c9cccf, -5px -5px 10px #ffffff;
+}
+
+.btn6:hover {
+    border-radius: 8px;
+    background: #ECF0F3;
+    box-shadow: inset 5px 5px 10px #c9cccf, inset -5px -5px 10px #ffffff;
+}
+
+.float {
+    background-image: linear-gradient(45.34deg, #EA52F8 5.66%, #0066FF 94.35%);
+    border-width: 0px;
+    border-radius: 50px;
+    padding: 20px;
+    color: white;
 }
